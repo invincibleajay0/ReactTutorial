@@ -1,0 +1,34 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "React Project",
+  "main": "App.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/invincibleajay0/ReactTutorial.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Ajay Sonawane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/invincibleajay0/ReactTutorial/issues"
+  },
+  "homepage": "https://github.com/invincibleajay0/ReactTutorial#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
